@@ -7,3 +7,6 @@ The program uses an arduino script (ReadHex.ino) to read the NUID of the RFID ca
 # Hardware Requirments:
 - [Arduino Uno](https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/ref=sr_1_1?dchild=1&keywords=arduino+uno&qid=1588071902&sr=8-1)
 - [RFID Card & Receiver](https://www.amazon.com/DONGHENG-Mifare-Reader-Arduino-Raspberry/dp/B07MKR3827/ref=sr_1_2?dchild=1&keywords=arduino+rfid+card&qid=1588072324&sr=8-2)
+
+# Arduino Connections:
+![myImage](https://imgur.com/a/Hzu1gq6)
