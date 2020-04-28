@@ -9,4 +9,4 @@ The program uses an arduino script (ReadHex.ino) to read the NUID of the RFID ca
 - [RFID Card & Receiver](https://www.amazon.com/DONGHENG-Mifare-Reader-Arduino-Raspberry/dp/B07MKR3827/ref=sr_1_2?dchild=1&keywords=arduino+rfid+card&qid=1588072324&sr=8-2)
 
 # Arduino Connections:
-![myImage](https://imgur.com/a/Hzu1gq6)
+![myImage](/Arduino-Files/circuit.png)
