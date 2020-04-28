@@ -10,3 +10,17 @@ The program uses an arduino script (ReadHex.ino) to read the NUID of the RFID ca
 
 # Arduino Connections:
 ![myImage](/Arduino-Files/circuit.png)
+
+# How to install:
+- ``` git clone https://github.com/JaniniRami07/RFID-File-Decrypter-Encypter ```
+- ```cd RFID-File-Decrypter-Encypter```
+- ```cd Arduino-Files```
+- Open readHex.ino and upload it to the Arduino
+- Open serial in arduino program and scan your RFID card.
+- Copy the hex code: xx xx xx xx to readNUIDino file and replace it in line ``` byte knownTac[4] = {xx, xx, xx, xx};```
+- Upload readNUID to Arduino uno (Close the serial if open).
+- Make a secret.txt file and put in it what you want to encrypt.
+- run ```python3  RFIDReader.py```
+
+# Author:
+pr0xy07@tutanota.com
